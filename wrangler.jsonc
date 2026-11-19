@@ -2,7 +2,17 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "tyler4400-home",
   "compatibility_date": "2026-11-19",
-  "workers_dev": true,
+  "workers_dev": false,
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true,
+      "invocation_logs": true
+    }
+  },
   "assets": {
     "directory": "./public",
     "not_found_handling": "404-page"
