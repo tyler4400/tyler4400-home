@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "tyler4400-home",
+  "compatibility_date": "2026-11-19",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "tyler4400.com", "custom_domain": true },
+    { "pattern": "www.tyler4400.com", "custom_domain": true }
+  ]
+}

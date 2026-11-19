@@ -1,0 +1,11 @@
+{
+  "name": "tyler4400-home",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.165.0"
+  }
+}
